@@ -1,0 +1,4 @@
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.ckpt.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+*.pth !text !filter !merge !diff
+*.ckpt.data-00000-of-00001 !text !filter !merge !diff
