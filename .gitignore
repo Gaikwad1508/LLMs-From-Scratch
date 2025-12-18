@@ -1,0 +1,4 @@
+# Model weights
+*.pth
+*.ckpt.data*
+gpt2/124M/
